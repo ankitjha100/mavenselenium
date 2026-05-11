@@ -15,11 +15,7 @@ git branch: 'main' ,
  sh 'mvn test'
  }
  }
- stage('Execution'){
-  steps{
-   sh 'mvn exec:java -Dexec.mainClass="com.example.App"'
-  }
- }
+ 
  }
   post {
  success {

@@ -1,8 +1,8 @@
 pipeline{
 agent any
 stages{
-stage('Clone Repository'){
-git branch:main ,url:'https://github.com/ankitjha100/mavenselenium.git' 
+stage('Clone Repository'){steps{
+git branch:main ,url:'https://github.com/ankitjha100/mavenselenium.git' }
  }
  stage('Build') {
  steps {

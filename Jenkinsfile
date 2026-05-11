@@ -19,7 +19,7 @@ git branch: 'main' ,
  }
   post {
  success {
- echo 'www.saucedemo.com'
+ echo 'https://www.saucedemo.com'
  }
  failure {
  echo 'Build failed!'

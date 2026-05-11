@@ -16,5 +16,13 @@ git branch: 'main' ,
  }
  }
  }
+  post {
+ success {
+ echo 'www.saucedemo.com'
+ }
+ failure {
+ echo 'Build failed!'
+ }
+ }
 }
 
